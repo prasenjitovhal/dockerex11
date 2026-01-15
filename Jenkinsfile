@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_SERVER_IP = "3.110.28.232"   // second EC2 public IP
+        DOCKER_SERVER_IP = "65.0.173.104"   // second EC2 public IP
         SSH_USER = "ec2-user"
         IMAGE_NAME = "jenkins-demo-image"
         CONTAINER_NAME = "jenkins-demo-container"
